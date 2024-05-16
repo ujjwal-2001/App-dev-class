@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <div class="parameter">
+            <div class="param">First Name</div>
+            <div class="input"> 
+                <input type="text" name="first_name" id="first_name">
+                (max 30 characters a-z and A-Z)
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Last Name</div>
+            <div class="input"> 
+                <input type="text" name="last_name" id="last_name">
+                (max 30 characters a-z and A-Z)
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Date of Birth</div>
+            <div class="input"> 
+                <input type="date" name="dob" id="dob">
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">E-Mail</div>
+            <div class="input"> 
+                <input type="email" name="email" id="email">
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Mobile Number</div>
+            <div class="input"> 
+                <input type="text" name="contact" id="contact">
+                (10 digit number)
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Gender</div>
+            <div class="input"> 
+                <input type="radio" name="gender" id="male"> Male
+                <input type="radio" name="gender" id="female"> Female
+                <input type="radio" name="gender" id="other"> Other
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Address</div>
+            <div class="input"> 
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>     
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">City</div>
+            <div class="input"> 
+                <input type="text" name="city" id="city">
+                (max 30 characters a-z and A-Z)
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Pincode</div>
+            <div class="input"> 
+                <input type="text" name="pincode" id="pincode">
+                (6 digit number)
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">State</div>
+            <div class="input"> 
+                <input type="text" name="state" id="state">
+                (max 30 characters a-z and A-Z)
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Country</div>
+            <div class="input"> 
+                <input type="text" name="country" id="country" value="India">
+                (max 30 characters a-z and A-Z)
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Hobbies</div>
+            <div class="input"> 
+                <input type="checkbox" name="hobbies" id="hobby1"> Reading
+                <input type="checkbox" name="hobbies" id="hobby2"> Singing
+                <input type="checkbox" name="hobbies" id="hobby3"> Dancing
+                <input type="checkbox" name="hobbies" id="hobby4"> Sketching
+                <input type="checkbox" name="hobbies" id="hobby5"> Cooking
+                <!-- Others -->
+                <input type="checkbox" name="hobbies" id="hobby6"> Others
+                <input type="text" name="hobbies" id="hobby7">
+            </div>  
+        </div>
+        <div class="paramneter">
+            <div class="param">Eductional Qualification</div>
+        </div>
+        <div class="parameter">
+            <div class="input input-table"> 
+                <table>
+                    <tr>
+                        <th>Sl.No</th>
+                        <th>Qualification</th>
+                        <th>Board/University</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            12th
+                        </td>
+                        <td>
+                            <input type="text" name="board" id="board1">
+                        </td>
+                        <td>
+                            <input type="text" name="percentage" id="percentage1">
+                        </td>
+                        <td>
+                            <input type="text" name="year" id="year1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            U.G.
+                        </td>
+                        <td>
+                            <input type="text" name="board" id="board2">
+                        </td>
+                        <td>
+                            <input type="text" name="percentage" id="percentage2">
+                        </td>
+                        <td>
+                            <input type="text" name="year" id="year2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            P.G.
+                        </td>
+                        <td>
+                            <input type="text" name="board" id="board3">
+                        </td>
+                        <td>
+                            <input type="text" name="percentage" id="percentage3">
+                        </td>
+                        <td>
+                            <input type="text" name="year" id="year3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            Ph.D.
+                        </td>
+                        <td>
+                            <input type="text" name="board" id="board4">
+                        </td>
+                        <td>
+                            <input type="text" name="percentage" id="percentage4">
+                        </td>
+                        <td>
+                            <input type="text" name="year" id="year4">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="parameter">
+            <div class="param">Courses Applied for</div>
+            <div class="input"> 
+                <input type="radio" name="courses" id="course1"> B.C.A.
+                <input type="radio" name="courses" id="course5"> B.Com.
+                <input type="radio" name="courses" id="course6"> B.Sc.
+                <input type="radio" name="courses" id="course8"> M.E.
+            </div>
+        </div> 
+        <div class="parameter submit">
+            <div>
+                <input type="submit" name="submit" > 
+            </div>
+            <div>
+                <input type="button" name="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

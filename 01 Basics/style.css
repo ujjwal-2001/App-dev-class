@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(36, 178, 239);
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+h1{
+    text-align: center;
+}
+
+.parameter{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.param{
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.input-table{
+    flex-grow: 1
+}
+
+table{
+    width: 100%;
+    text-align: left;
+}
+
+th:nth-child(1){
+    width: 25%;
+}
+
+tr{
+    height: 45px;
+}
+
+th:nth-child(2){
+    width: 25%;
+}
+
+.submit{
+    justify-content: center;
+}
+
+.submit > div {
+    margin-left: 10px;
+}
